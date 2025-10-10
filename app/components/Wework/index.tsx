@@ -13,35 +13,29 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar.svg',
+        profession: 'India',
+        name: 'MediScript',
+        imgSrc: '/images/wework/customer1.jpg',
     },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar3.svg',
+     {
+        profession: 'Canada',
+        name: 'Salkara',
+        imgSrc: '/images/wework/customer2.jpg',
     },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar4.svg',
+     {
+        profession: 'Canada',
+        name: 'BeanBarrel',
+        imgSrc: '/images/wework/customer3.jpg',
     },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar.svg',
+     {
+        profession: 'Bharain',
+        name: 'Victoria',
+        imgSrc: '/images/wework/customer4.jpg',
     },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar3.svg',
-    },
-    {
-        profession: 'Co-founder',
-        name: 'John Doe',
-        imgSrc: '/images/wework/avatar4.svg',
-    },
+    
+   
+   
+   
 ]
 
 // CAROUSEL SETTINGS
@@ -53,7 +47,7 @@ export default class MultipleItems extends Component {
         const settings = {
             dots: false,
             infinite: true,
-            slidesToShow: 5,
+            slidesToShow: Math.min(postData.length, 5),
             // centerMode: true,
             slidesToScroll: 1,
             arrows: false,
@@ -111,7 +105,7 @@ export default class MultipleItems extends Component {
                         <div key={i}>
                             <div className='bg-white m-3 py-14 my-10 text-center shadow-xl rounded-3xl'>
                                 <div className='relative'>
-                                    <Image src={items.imgSrc} alt="gaby" width={182} height={182} className="inline-block m-auto" />
+                                    <Image src={items.imgSrc} alt="gaby" width={182} height={182} className="inline-block m-auto rounded-full" />
                                     <Image src={'/images/wework/linkedin.svg'} alt="greenbg" width={120} height={120} className=" absolute inline-block position-linkedin" />
                                 </div>
                                 <h4 className='text-4xl font-bold pt-14'>{items.name}</h4>

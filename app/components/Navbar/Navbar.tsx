@@ -6,6 +6,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from './Contactus';
+import logo from '@/public/images/logo/logo_png_black.png'
 
 interface NavigationItem {
     name: string;
@@ -35,12 +36,17 @@ const Navbar = () => {
                 <div className="mx-auto max-w-7xl p-3 md:p-4 lg:px-8">
                     <div className="relative flex h-12 sm:h-20 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
-
-                            {/* LOGO */}
-
+                             <Link href="/" className="flex items-center gap-2">
+                              <img src={logo.src}  
+                                width={70}
+                                height={70}
+                                alt='logo'
+                                className="rounded-full border border-white/20"></img>
+                             </Link>
+                           
                             <div className="flex flex-shrink-0 items-center border-right">
                                 <Link href="/" className='text-2xl sm:text-4xl font-semibold text-black'>
-                                    Desgy Solutions
+                                    Zeeza Global
                                 </Link>
                             </div>
 

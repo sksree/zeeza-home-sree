@@ -20,8 +20,8 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Craven omni memoria patriae zombieland clairvius narcisse <br /> religionis
-                                    sunt diri undead historiarum. Golums, zombies unrelenting <br /> et Raimi fascinati beheading.
+                                   "Absolutely! Our team can create a fully customized website for you, complete with a responsive layout, intuitive navigation, engaging visuals, 
+                                   and optimized performance to help your business grow online.""
                                 </Disclosure.Panel>
                             </>
                         )}
@@ -40,8 +40,8 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Craven omni memoria patriae zombieland clairvius narcisse <br /> religionis
-                                    sunt diri undead historiarum. Golums, zombies unrelenting <br /> et Raimi fascinati beheading.
+                                    “Yes! We can develop a fully functional, responsive website tailored to your requirements using modern technologies like 
+                                    Next.js, React, and Tailwind CSS.”
                                 </Disclosure.Panel>
                             </>
                         )}
@@ -60,8 +60,8 @@ const FAQ = () => {
                                     />
                                 </Disclosure.Button>
                                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-black font-normal opacity-50">
-                                    Craven omni memoria patriae zombieland clairvius narcisse <br /> religionis
-                                    sunt diri undead historiarum. Golums, zombies unrelenting <br /> et Raimi fascinati beheading.
+                                    “Our headquarters are in Canada, but we work with clients from all over the world, 
+                                    providing seamless remote services and support.”
                                 </Disclosure.Panel>
                             </>
                         )}

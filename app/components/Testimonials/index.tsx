@@ -17,19 +17,19 @@ const postData: DataType[] = [
     {
         name: "Robert Fox",
         profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        comment: 'The team delivered exactly what we needed. Our software is now faster, more reliable, and perfectly tailored to our workflow.',
         imgSrc: '/images/testimonial/user1.svg',
     },
     {
         name: "Leslie Alexander",
         profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        comment: 'Highly professional and technically brilliant. They transformed our digital platform and exceeded our expectations.',
         imgSrc: '/images/testimonial/user2.svg',
     },
     {
         name: "Cody Fisher",
         profession: 'CEO, Parkview Int.Ltd',
-        comment: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+        comment: 'Their expertise and support made the development process seamless. We now have a scalable solution that truly drives our business forward',
         imgSrc: '/images/testimonial/user3.svg',
     },
     {

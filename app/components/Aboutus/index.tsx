@@ -13,19 +13,19 @@ const Aboutdata: datatype[] = [
     {
         heading: "About us.",
         imgSrc: "/images/aboutus/imgOne.svg",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
+        paragraph: 'We are a team of IT professionals delivering innovative software, cloud, and digital solutions to help businesses grow.',
         link: 'Learn more'
     },
     {
         heading: "Services.",
         imgSrc: "/images/aboutus/imgTwo.svg",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
+        paragraph: 'We provide custom software development, IT consulting, UI/UX design, and ongoing maintenance to help your business grow and succeed.',
         link: 'Learn more'
     },
     {
         heading: "Our Works.",
         imgSrc: "/images/aboutus/imgThree.svg",
-        paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem',
+        paragraph: 'We provide innovative IT solutions that blend technology and design to help businesses grow, optimize operations, and thrive in the digital world.',
         link: 'Learn more'
     },
 ]
