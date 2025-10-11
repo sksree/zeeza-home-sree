@@ -14,19 +14,19 @@ const Aboutdata: datatype[] = [
         heading: "About us.",
         imgSrc: "/images/aboutus/imgOne.svg",
         paragraph: 'We are a team of IT professionals delivering innovative software, cloud, and digital solutions to help businesses grow.',
-        link: 'Learn more'
+        link: '/Aboutus'
     },
     {
         heading: "Services.",
         imgSrc: "/images/aboutus/imgTwo.svg",
         paragraph: 'We provide custom software development, IT consulting, UI/UX design, and ongoing maintenance to help your business grow and succeed.',
-        link: 'Learn more'
+        link: '/Services'
     },
     {
         heading: "Our Works.",
         imgSrc: "/images/aboutus/imgThree.svg",
         paragraph: 'We provide innovative IT solutions that blend technology and design to help businesses grow, optimize operations, and thrive in the digital world.',
-        link: 'Learn more'
+        link: '/Works'
     },
 ]
 
@@ -44,8 +44,12 @@ const Aboutus = () => {
                             <h4 className='text-4xl font-semibold  text-black mb-5 group-hover:text-white'>{item.heading}</h4>
                             <Image src={item.imgSrc} alt={item.imgSrc} width={100} height={100} className="mb-5" />
                             <h4 className='text-lg font-normal text-black group-hover:text-offwhite mb-5'>{item.paragraph}</h4>
-                            <Link href="#" className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>
-                                {item.link}
+                            <Link href={item.link} className='text-lg font-semibold group-hover:text-white text-blue hover-underline'>
+                                 {item.link === "/Aboutus"
+                                     ? "Learn more about us"
+                                     : item.link === "/Services"
+                                     ? "See our services"
+                                     : "View our works"}
                                 <ChevronRightIcon width={20} height={20} />
                             </Link>
                         </div>
