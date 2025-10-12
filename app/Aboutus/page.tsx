@@ -10,7 +10,7 @@ export default function AboutuaPage(){
       <div className="flex flex-col lg:flex-row gap-8  px-5 lg:px-10">
         <div className="flex-1 pt-5">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
-            Our Story, Vision and <br /> Valuessss
+            Our Story, Vision and <br /> Values
           </h1>
         </div>
         <div className="flex-1 font-bold pt-5 text-gray-700">
@@ -69,11 +69,11 @@ export default function AboutuaPage(){
         </div>
       </div>
 
-     <div className="flex h-25 w-300 border mb-10 p-6 rounded-xl ml-10 mr-10 mt-10  divide-x divide-black-300">
+     <div className="flex h-25 w-300 border-2 border-blue-400 mb-10 p-6 rounded-xl ml-10 mr-10 mt-10  divide-x divide-blue-600">
         <div className=" flex-1 text-center">
             
                 <div className="font-bold text-4xl">200+</div>
-                <div className="font-bold text-xl">Project comleted</div>
+                <div className="font-bold text-xl">Project completed</div>
             
         </div>
         <div className="flex-1 text-center">
