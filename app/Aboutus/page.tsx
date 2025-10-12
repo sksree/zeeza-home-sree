@@ -10,7 +10,7 @@ export default function AboutuaPage(){
       <div className="flex flex-col lg:flex-row gap-8  px-5 lg:px-10">
         <div className="flex-1 pt-5">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
-            Our Story, Vision and <br /> Values
+            Our Story, Vision and <br /> Valuessss
           </h1>
         </div>
         <div className="flex-1 font-bold pt-5 text-gray-700">
