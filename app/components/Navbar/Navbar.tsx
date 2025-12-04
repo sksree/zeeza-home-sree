@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 import { Disclosure } from '@headlessui/react';
 import Link from 'next/link';
 import React from 'react';
@@ -37,11 +38,13 @@ const Navbar = () => {
                     <div className="relative flex h-12 sm:h-20 items-center">
                         <div className="flex flex-1 items-center sm:justify-between">
                              <Link href="/" className="flex items-center gap-2">
-                              <img src={logo.src}  
+                              <Image
+                                src={logo.src}
                                 width={70}
                                 height={70}
-                                alt='logo'
-                                className="rounded-full border border-white/20"></img>
+                                alt="logo"
+                                className="rounded-full border border-white/20"
+                                />
                              </Link>
                            
                             <div className="flex flex-shrink-0 items-center border-right">

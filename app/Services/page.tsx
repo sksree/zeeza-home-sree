@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { useState } from "react";
 import img from "@/public/images/aboutus/dash.jpg";
 
@@ -59,7 +60,7 @@ export default function AboutuaPage() {
 
       {/* Image */}
       <div className="flex justify-center items-center mt-3 sm:mt-5 px-4">
-        <img
+        <Image
           src={img.src}
           alt="dash"
           className="rounded-xl w-full max-w-[1000px] sm:max-w-[1200px] h-auto"
